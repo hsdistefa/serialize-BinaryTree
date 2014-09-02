@@ -1,0 +1,29 @@
+//	public static void main(String[] args) {
+//		// Crude method for constructing binary tree
+//		BinaryTree n1 = new BinaryTree("1111");
+//		BinaryTree n2 = new BinaryTree("2");
+//		BinaryTree n3 = new BinaryTree("3");
+//		BinaryTree n4 = new BinaryTree("44");
+//		BinaryTree n5 = new BinaryTree("3");
+//		BinaryTree n6 = new BinaryTree("6");
+//		
+//		BinaryTree empty = new BinaryTree(null);
+//		System.out.println(empty.serialize());
+//
+//		n1.left = n2; n1.right = n3;
+//		n2.left = n4; n2.right = n5; n3.left = n6;
+//		
+//		
+//		n1.printPreOrder(n1);
+//		System.out.println();
+//		n1.printInOrder(n1);
+//		System.out.println();
+//		
+//		n1.serialize();
+//		n1.deserialize(n1.getSerialized());
+//		
+//		n1.printPreOrder(n1);
+//		System.out.println();
+//		n1.printInOrder(n1);
+//		System.out.println();
+//	}
